@@ -17,15 +17,18 @@ export default function RootLayout({
   return (
     <html lang="en">
     <head>
+      <title>Subtitle Player</title>
+
+      <meta name="apple-mobile-web-app-title" content="Subtitle Player"/>
+      <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+      <meta name="mobile-wep-app-capable" content="yes"/>
+      <meta name="apple-mobile-wep-app-capable" content="yes"/>
       <meta name="viewport"
             content="width = device-width, initial-scale = 1.0, minimum-scale = 1, maximum-scale = 1, user-scalable = no"/>
-      <link rel="icon" href="/favicon.png"/>
-      <title>Subtitle Player</title>
-      <meta name="apple-mobile-web-app-title" content="Subtitle Player"/>
 
-      <meta name="apple-mobile-web-app-capable" content="yes"/>
+      <link rel="manifest" href="/manifest.json"/>
+      <link rel="icon" href="/icon1.webp"/>
 
-      <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
     </head>
     <body className={inter.className}>{children}</body>
     </html>

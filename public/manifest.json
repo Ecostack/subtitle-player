@@ -1,0 +1,22 @@
+{
+  "name": "Subtitle Player",
+  "file_handlers": [
+    {
+      "action": "/handle-srt-file",
+      "accept": {
+        "application/x-subrip": [".srt"],
+        "application/octet-stream": [".srt"]
+      }
+    }
+  ],
+  "icons": [
+    {
+      "src": "/icon1.webp",
+      "type": "image/webp",
+      "sizes": "704x704"
+    }
+  ],
+  "description": "Play your subtitle alongside of a video.",
+  "theme_color": "black",
+  "display": "standalone"
+}
