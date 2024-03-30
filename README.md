@@ -1,4 +1,4 @@
-# Subtitle Uploader and Player
+# Subtitle Player
 
 ## About The Project
 
